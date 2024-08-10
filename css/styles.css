@@ -1,0 +1,263 @@
+:root {
+    --back-color: #111111;
+    --violet-color: #1E1823;
+    --orange-color: #FD9222;
+    --white-color: #FFFFFF;
+    --creme-color: #FCF1E0;
+    --light-gray-color: #fafafa;
+
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--light-gray-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1168px;
+    padding: 0 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #region HEADER */
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: var(--back-color);
+    padding: 28px 0;
+}
+
+.logo-span {
+    font-style: italic;
+}
+
+.logo-icon {
+    box-sizing: content-box;
+    stroke: var(--orange-color);
+    fill: var(--light-gray-color);
+    
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-right: 90px;
+}
+
+.nav-item {
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: var(--back-color);
+    padding: 28px 0;
+    transition: color 250ms ease-in-out;
+}
+
+.network-list {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.network-item {
+}
+
+.network-link {
+    padding: 28px 0;
+}
+
+.network-icon {
+    stroke: var(--back-color);
+    fill: var(--light-gray-color);
+    transition: stroke 250ms ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.network-link:hover .network-icon,
+.network-link:focus .network-icon {
+    color: var(--orange-color);
+    stroke: var(--orange-color);
+}
+/* #endregion HEADER */
+
+/* #region HERO */
+.hero {
+    max-width: 1200px;
+    max-height: 600px;
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(30, 24, 35, 0.4),rgba(30, 24, 35, 0.4)), url(../images/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 381px 72px 40px 72px;
+}
+
+.hero-title {
+    max-width: 484px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color: var(--white-color);
+    margin-bottom: 32px;
+}
+
+.hero-box {
+    display: flex;
+    align-items: center;
+}
+
+.hero-box-btn {
+}
+
+.hero-button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--white-color);
+    background-color: var(--orange-color);
+    border: none;
+    padding: 14px 40px;
+    border-radius: 100px;
+    margin-right: 14px;
+}
+
+.hero-link {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--white-color);
+    border: 1px solid var(--white-color);
+    border-radius: 100px;
+    padding: 14px 40px;
+}
+
+.hero-scroll-down {
+}
+
+.hero-down{
+    margin-right: auto;
+}
+/* #endregion HERO */
+
+/* #region BENEFITS */
+.benefits {
+}
+.section-title {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-item-title {
+}
+.benefits-item-text {
+}
+/* #endregion BENEFITS */
+
+/* #region INGREDIENTS */
+.ingredients {
+}
+.ingredients-text {
+}
+.ingredients-container {
+}
+.ingredients-list {
+}
+.ingredients-item {
+}
+.ingredients-item-img {
+}
+.ingredients-item-title {
+}
+/* #endregion INGREDIENTS */
+
+/* #region MADE */
+.made {
+}
+.section {
+}
+.title {
+}
+.made-img {
+}
+.made-text {
+}
+.made-list {
+}
+.made-item {
+}
+/* #endregion MADE */
+
+/* #region FEEDBACK */
+.feedback {
+}
+.feedback-list {
+}
+.feedback-item {
+}
+.feedback-item-img {
+}
+.feedback-item-title {
+}
+.feedback-item-text {
+}
+.feedback-link {
+}
+/* #endregion FEEDBACK */
+
+/* #region FOOTER */
+.footer-text {
+}
+.footer-nav {
+}
+.footer-nav-list {
+}
+.footer-nav-item {
+}
+.footer-nav-link {
+}
+/* #endregion FOOTER */
